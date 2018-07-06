@@ -8,7 +8,7 @@ set(FORCE_TF_PIP_SEARCH OFF CACHE BOOL "Whether to search for pip-installed Tens
 set(DISABLE_TF_PIP_SEARCH OFF CACHE BOOL "Whether to skip search for pip-installed Tensorflow")
 set(FORCE_TF_BAZEL_SEARCH OFF CACHE BOOL "Whether to search for bazel-compiled Tensorflow even if tensorflow was already found")
 set(DISABLE_TF_BAZEL_SEARCH OFF CACHE BOOL "Whether to skip search for bazel-compiled Tensorflow")
-set(FORCE_TF_CATKIN_SEARCH OFF CACHE BOOL "Whether to search for tensorflow_catkin even if tensorflow was already found")
+set(FORCE_TF_CATKIN_SEARCH ON CACHE BOOL "Whether to search for tensorflow_catkin even if tensorflow was already found")
 set(DISABLE_TF_CATKIN_SEARCH OFF CACHE BOOL "Whether to skip search for tensorflow_catkin")
 
 # variables affecting pip search
